@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Seller</title>
+    <link rel="stylesheet" href="seller.css">
+</head>
+<body>
+
+    <div class="seller-container">
+        <h1> Become a Seller</h1>
+        <p>Join us and start selling your products to millions of customers.</p>
+
+        <!-- Seller Registration Form -->
+        <form action="#" method="post" class="seller-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="business">Business Name:</label>
+            <input type="text" id="business" name="business" required>
+
+            <label for="category">Product Category:</label>
+            <select id="category" name="category" required>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="home">Home & Furniture</option>
+                <option value="beauty">Beauty & Personal Care</option>
+                <option value="toys">Toys & Baby Products</option>
+            </select>
+
+            <label for="terms">
+                <input type="checkbox" id="terms" required>
+                I agree to the terms & conditions.
+            </label>
+
+            <button type="submit">Register as Seller</button>
+        </form>
+
+        <!-- Back to Home Button -->
+        <a href="index.html" class="home-btn"> Back to Home</a>
+    </div>
+
+</body>
+</html>

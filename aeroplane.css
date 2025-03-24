@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #254396, #dfe6f0);
+    color: white;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #1254E7, #0a3ea9);
+    color: white;
+}
+
+.navbar h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.home-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background: #ff9800;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background: #e68900;
+}
+
+/* Booking Form Container */
+.booking-container {
+    max-width: 500px;
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+}
+
+.booking-container h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #1254E7;
+}
+
+/* Form Styling */
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.booking-form label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.booking-form input,
+.booking-form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Search Button */
+.search-btn {
+    background: #1254E7;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    background: #0a3ea9;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    padding: 15px;
+    background: #0a3ea9;
+    color: white;
+}
