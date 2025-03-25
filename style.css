@@ -6,37 +6,12 @@ body {
 }
 .navbar {
     display: flex;
-    flex-wrap: wrap; /* Allows elements to move to the next line on small screens */
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-.search-bar {
-    width: 80%; /* Make it responsive */
-    max-width: 600px; /* Prevents it from getting too large */
-}
-
-@media (max-width: 768px) {
-    .search-bar {
-        width: 90%;
-    }
-}
-
-.navbar {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(135deg, #254396, #dfe6f0);
     color: rgb(255, 255, 255);
 }
+
 
 .navbar {
     display: flex;
@@ -153,28 +128,6 @@ body {
     margin: 0 8px;
     color: #1254E7;
 }
-
-.categories-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjusts based on screen size */
-    gap: 10px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-@media (max-width: 768px) {
-    .categories-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .categories-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 .categories-container {
     display: grid;
     grid-template-columns: repeat(8, 1fr); /* Creates 4 equal columns */
@@ -207,23 +160,6 @@ body {
     height: 300px;
     background: linear-gradient(135deg, #254396, #dfe6f0);
 }
-
-.image-slider {
-    width: 100%;
-    max-width: 1200px;
-}
-
-.slider img {
-    width: 100%;
-    height: auto;
-}
-
-@media (max-width: 768px) {
-    .slider img {
-        height: 200px; /* Reduce image height for smaller screens */
-    }
-}
-
 
 /* Image Slider */
 .image-slider {
@@ -263,21 +199,6 @@ body {
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
 }
-
-.products-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Auto adjusts the number of columns */
-    gap: 20px;
-    padding: 20px;
-    width: 90%;
-    margin: auto;
-}
-
-.product img {
-    width: 100%;
-    height: auto;
-}
-
 
 .products-container {
     display: flex;
