@@ -38,79 +38,6 @@ body {
     width: 24px; /* Adjust icon size */
     height: 24px;
 }
-/* Base styles remain unchanged */
-
-/* Media Queries for Responsive Design */
-
-/* For tablets and small screens (max-width: 1024px) */
-@media (max-width: 1024px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .search-bar {
-        width: 100%;
-        max-width: 600px;
-    }
-    
-    .categories-container {
-        grid-template-columns: repeat(4, 1fr); /* Adjust to 4 columns */
-    }
-    
-    .products-container {
-        grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns */
-    }
-}
-
-/* For mobile devices (max-width: 768px) */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        padding: 10px;
-    }
-    
-    .search-bar {
-        width: 100%;
-    }
-    
-    .categories-container {
-        grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns */
-    }
-    
-    .products-container {
-        grid-template-columns: repeat(1, 1fr); /* Show one item per row */
-    }
-    
-    .product img {
-        width: 100px; /* Reduce image size for smaller screens */
-    }
-}
-
-/* For extra small screens (max-width: 480px) */
-@media (max-width: 480px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .search-bar {
-        width: 100%;
-    }
-    
-    .categories-container {
-        grid-template-columns: repeat(1, 1fr); /* Stack items in one column */
-    }
-    
-    .products-container {
-        grid-template-columns: repeat(1, 1fr); /* Show one item per row */
-    }
-    
-    .product img {
-        width: 80px; /* Further reduce image size */
-    }
-}
-
 
 .logo-search {
     background-color: #f0f5ff;
@@ -375,3 +302,4 @@ body {
 .footer-section a:hover {
     text-decoration: underline;
 }
+
